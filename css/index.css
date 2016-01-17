@@ -228,7 +228,7 @@ position: relative;
   background-color: #ffffff;
 }
 
-#education-details-container {
+#education-details-container, .contact-section, .projects-section  {
   background-color: #f6f6f6;
 }
 
@@ -416,7 +416,7 @@ position: relative;
     bottom: -60px;
     left: 0;
     padding: 25px;
-    background-color: #fff;
+    background-color: #f6f6f6;
     color: #000;
     text-align: center;
     opacity: 0;
