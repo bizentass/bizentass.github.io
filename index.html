@@ -1,192 +1,851 @@
-<!DOCTYPE HTML>
-<html lang="en">
-	<head>
-	    <meta charset="utf-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	    <meta name="description" content="">
-	    <meta name="author" content="">
-	    <link rel="shortcut icon" href="images/favicon.png">
-		<title>Lalith Natarajan · Graduate Student</title>
-	
-		<link href='https://fonts.googleapis.com/css?family=Satisfy'
-			rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Oswald'
-			rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Actor'
-			rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css"
-			href="libraries/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="libraries/css/index.css">
-		<link rel="stylesheet" type="text/css" href="libraries/css/font-awesome.min.css">
-	    <!-- Bootstrap core CSS -->
-	
-	    <script src="libraries/js/jquery-1.11.3.min.js"></script>
-		<script src="libraries/js/bootstrap.min.js"></script> 
-	    <script>
-			$(document).ready(function() {
-				//alert("Came hre!");
-				// 				$.post("http://api.theysaidso.com/qod?category=life", function(data){
-				// 					alert("Came hre!" + data);
-				// 					$('#quote').html(data);
-				// 				});
-			});
-		</script>
-	</head>
+---
+layout: default
+title: Lalith Natarajan · Developer 
+---
+<header>
+    <nav class="navbar navbar-default header-navbar">
+      <div class="container font_oswald">
+        <div class="col-md-3 name-container" >Lalith Natarajan</div>
+        <div id="navbar" class="col-md-9 navbar-collapse collapse pull-right">
+          <ul class="nav navbar-nav">
+	            <li>
+            	<a href="#contact-details-container">contact</a>
+            </li>
+            <li>
+            	<a href="public/Lalith_Natarajan_One_Page.pdf">resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
 
-	<body>
+<div class="content-scroller font_pt-sans">
+	<section class="about-section container" style="position: relative;">
+		<div class="col-md-6 col-sm-12 col-xs-12 about-me-container" style="text-align: center;">
+        	<img src="images/profile_pic.png" >
+      	</div>
+      	<div class="col-md-6 col-sm-12 col-xs-12 about-me-container">
+       	 <div class="blockquote">
+       	 	"You'll laugh at your fears when you find out who you really are" - Piccolo
+       	 </div>
+       	 <div class="tiny-break"></div>
+       	 <p>
+       	 Hello! I am <b>Lalith Vikram Natarajan</b>. I am from <a href="https://www.google.com/search?q=coimbatore"> Coimbatore</a>, a city in South India which I hold very dear. I am currently a graduate student at <a href="https://www.buffalo.edu">The University at Buffalo</a> majoring in Computer Science. I love computers and have good experience developing applications that run on them. I am currently interested in developing data intensive web solutions. I am a fan of minimalistic design and I strive to simplify things around me. I hold other interests besides technology which include movies, soccer, music, quizzing, travelling and anime.I sporadically write stuff on quora (I'm a regular lurker though :D). Feel free to browse around. Thank you! </p>
+      	</div>
+	</section>
 
-	    <!-- Fixed navbar -->
-	    <nav class="navbar navbar-default navbar-fixed-top" style="display:none">
-	      <div class="container font_oswald">
-	        <div class="navbar-header">
-	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-	            <span class="sr-only">Toggle navigation</span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	            <span class="icon-bar"></span>
-	          </button>
-	          <!--  <a class="navbar-brand" href="#">Lalith</a> -->
-	        </div>
-	        <div id="navbar" class="navbar-collapse collapse">
-	          <ul class="nav navbar-nav" style="float:right">
-	            <li class="active">
-	            	<a href="#education">education</a>
-	            </li>
-	            <li>
-	            	<a href="#experience">experience</a>
-	            </li>
-	            <li>
-	            	<a href="#skills">skills</a>
-	            </li>
-	            <li>
-	            	<a href="#contact">project</a>
-	            </li>
-	            <li>
-	            	<a href="#contact">contact</a>
-	            </li>
-	            <li>
-	            	<a href="#blog">blog</a>
-	            </li>
-	            <li>
-	            	<a href="#resume">resume</a>
-	            </li>
-	          </ul>
-	        </div><!--/.nav-collapse -->
-	      </div>
-	    </nav>
-		
-		<section class="container" style="display:none">
-			<div class="blurb">
-				<div class="col-md-12" id="quote"></div>
+	<section class="education-section"> 
+	    <div class="sticky-wrapper" id="education-nav" style="height:50px">
+		    <section class="gap education">
+				<div class="container">
+					<p>education <i class="fa fa-graduation-cap sticky-wrapper-icon"></i></p>
+
+				</div>
+			</section>
+		</div>
+
+		<div id="education-details-container">
+            <section class="container page-section">
+                <div class="col-md-9">
+                    <div class="cv-item edu-item">                        
+                        <div class="tiny-break"></div>
+			              <h4>Master of Science in Computer Science 
+			              	<small>(3.6 / 4.0)</small>
+			          	  </h4>
+			              <p> Graduate Studies with concentration in Software Systems</p>
+			              <h5>Coursework</h5>
+			              <ul class="unordered-list">
+			                <li> Distributed Systems (CSE 586)</li>
+			                <li> Information Retrieval (CSE 535) </li>
+			                <li> Fundamentals of Programming Languages (CSE 505)</li>
+			                <li> Analysis of Algorithms (CSE 529)</li>
+			              </ul>
+                    </div><!-- end .cv-item --> 
+                </div><!-- end .col-md-9 -->
+                <div class="col-md-3">
+                    <div class="page-section-title">  
+                        <div class="time-range">
+                    		2015 <span>/ Aug</span> - Present 
+                    	</div>                          
+                        <h4>University at Buffalo</h4>
+                        <p>
+                        	Graduate Student
+                        </p>
+                    </div><!-- end .page-section-title -->
+                </div><!-- end col-md-3 -->
+        	</section><!-- end .page-section -->
+        
+            <div class="container page-section">
+                <div class="col-md-9">
+                    <div class="cv-item edu-item">                           
+                        <div class="tiny-break"></div>
+			              <h4>Bachelor of Engineering in Computer Science & Engineering 
+			              	<small>(3.5 / 4.0)</small>
+			              </h4>
+			              <p> Undergraduate Studies </p>
+			              <h5>Relevant Coursework</h5>
+			              <ul class="unordered-list">
+			              	<li> Fundamentals of Computing and Computer Programming </li>
+	                       	<li> Object Oriented Programming </li>
+					        <li> Data Structures </li>
+					        <li> Design and Analysis of Algorithms </li>
+					        <li> Probability and Queueing Theory</li>
+					        <li> Database Management Systems </li>
+					        <li> Computer Organization and Architecture </li>
+					        <li> Operating Systems </li>
+					        <li> Computer Networks </li>
+					        <li> Java Programming </li>
+					        <li> Internet Programming </li>
+					        <li> Open Source Tools and Components </li>
+					        <li> Data Warehousing and Data Mining </li>
+					        <li> Compiler Design </li>
+			              </ul>
+                    </div><!-- end .cv-item --> 
+                </div><!-- end .col-md-9 -->
+                <div class="col-md-3">
+                    <div class="page-section-title">  
+                        <div class="time-range">
+                    		2008 <span>/ Aug</span> - 2012 <span>/ Apr</span> 
+                    	</div>                          
+                        <h4>Sri Krishna College of Engineering and Technology</h4>
+                        <p>
+                        	Graduate Student
+                        </p>
+                    </div><!-- end .page-section-title -->
+                </div><!-- end col-md-3 -->
+        	</div><!-- end .page-section -->
+    	</div>
+    </section><!-- end .education-section -->
+
+	<section class="experience-section"> 
+		<div class="sticky-wrapper" id="experience-nav" style="height:50px">
+		    <section class="gap experience">
+				<div class="container">
+					<p>experience  <i class="fa fa-briefcase sticky-wrapper-icon"></i> </p>
+				</div>
+			</section>
+		</div>
+
+		<div id="work-ex-details-container">
+            <div class="container page-section">
+                <div class="col-md-3">
+                    <div class="page-section-title">  
+                        <div class="time-range">
+                    		2015 <span> /May</span> - 2015 <span> /Jul </span>
+                    	</div>                        
+                        <h4>Augrav.com</h4>
+                        <p>
+                        	Software Developer
+                        </p>
+                    </div><!-- end .page-section-title -->
+                </div><!-- end .span3 -->
+                <div class="col-md-9">
+                    <div class="cv-item">
+                     	<h3 class="text-uppercase">Job Description</h3>                            
+                        <p>
+							Evaluated various technologies like OpenGL, Blender, Pillow , Sprite-spin and Three.js to create a custom 3D modeller for Augrav.com.<br>
+							Delivered an optimum solution using Blender and Sprite-Spin and hosted it using Flask.<br>
+							Proposed a new custom search solution using Apache Solr and worked on the prototype.<br>
+                        </p>
+                        <div class="tiny-break"></div>
+                        <p>
+                        	<h5><i>About the company</i></h5>  								
+                        	Augrav.com is a Krizda India Pvt Ltd venture specializing in personalized jewellery.
+                        </p>
+                    </div><!-- end .cv-item --> 
+                </div><!-- end .col-md-9 -->
+        	</div><!-- end .page-section -->
+        
+            <div class="container page-section">
+                <div class="col-md-3">
+                    <div class="page-section-title">  
+                        <div class="time-range">
+                    		2015 <span>/ Dec</span> - 2015 <span> /Jul </span>
+                    	</div>                          
+                        <h4>General Sentiment Inc.</h4>
+                        <p>
+                        	Software Developer
+                        </p>
+                    </div><!-- end .page-section-title -->
+                </div><!-- end .span3 -->
+                <div class="col-md-9">
+                    <div class="cv-item">
+                     	<h3 class="text-uppercase">Job Description</h3>                            
+                        <p>
+							Redesigned the consumer facing web application using Bootstrap 3 and Struts with the inclusion of a data visualization module for marketing analytics.<br>
+							Reduced the average response time of the application by over 20%.<br>
+							Assisted in upgrading the distributed system cluster used for the processing of real-time media data from Hadoop 1 to 2 by rewriting and optimizing a number of MapReduce jobs.<br>
+							Solved critical-production issues that occurred in the distributed database management system built on Cassandra.<br>
+
+                        </p>
+                        <div class="tiny-break"></div>
+                        <p>
+                        	<h5><i>About the company</i></h5>  								
+                        	General Sentiment Inc. is a Long Island based startup specializing in Data Analytics. It was operating in India from the premises of Krizda India Pvt Ltd.
+                        </p>
+                    </div><!-- end .cv-item -->  
+                </div><!-- end .col-md-9 -->
+        	</div><!-- end .page-section -->
+            
+            <div class="container page-section">
+                <div class="col-md-3">
+                    <div class="page-section-title">  
+                        <div class="time-range">
+                    		2012 <span>/ Aug</span> - 2014 <span>/ Nov </span>
+                    	</div>                          
+                        <h4> Verizon India</h4>
+                        <p>
+                        	Software Engineer (Dev)
+                        </p>
+                    </div><!-- end .page-section-title -->
+                </div><!-- end .span3 -->
+                <div class="col-md-9">
+                    <div class="cv-item">
+                     	<h3 class="text-uppercase">Job Description</h3>                            
+                        <p>
+							Collaborated with the OSP Engineering team on various GeoSpatial web applications based on Java.<br>
+							Modified the NG ICGS web application code to handle DB merge and .DGN migration changes.<br>
+							Optimized code for the Conversion/Conflation (of .dgn files) process and wrote scripts used to automate this manual process.<br> 
+							Worked with the PRS team in developing business modules by interacting with clients.<br>
+							Spearheaded discussions on the Fiber Management application for the European region (based on Esri's ArcGIS and Spring).<br>
+							Built the FM application architecture using Spring and coded multiple modules using Java and jQuery.<br>
+							Also assisted in the spatial web application development using Oracle Spatial and ArcGIS built on top of the Dojo framework.<br>
+							Solved 300+ issues during deployment and routine testing on all these applications and Mentored a small team and supervised their work.<br>
+                        </p>
+                        <div class="tiny-break"></div>
+                        <p>
+                        	<h5><i>About the company</i></h5>  								
+                        	Verizon Data Services India Pvt. Ltd is the software development wing of Verizon Communications Inc. operating out of centers in Chennai and Hyderabad.
+                        </p>
+                    </div><!-- end .cv-item --> 
+                </div><!-- end .col-md-9 -->
+        	</div><!-- end .page-section -->
+ 		</div>
+ 	</section> <!-- end .experience-section -->
+
+ 	<section class="projects-section"> 
+		<div class="sticky-wrapper" id="projects-nav" style="height:50px">
+		    <section class="gap projects">
+				<div class="container">
+					<p>projects <i class="fa fa-inbox sticky-wrapper-icon"></i> </p>
+				</div>
+			</section>
+		</div>
+
+		<section class="container page-block">
+			<div class="container" id="projects-detail-container">
+			    <div class="col-md-4 project-item">
+			        <div class="project-item-preview">			
+			            <img src="images/projects/incident_search.png" alt="Incident Search">
+			            <div class="project-item-overlay">
+			                <div class="project-item-overlay-actions">
+			                    <a 	class="ajax-popup-link project-item-link" 
+			                    	href="#proj_incident" data-toggle="modal" 
+			                    	data-target="#proj_incident">
+			                    	<i class="fa fa-external-link"></i>
+			                    </a>
+			                </div><!-- end .project-item-overlay-actions -->
+			            </div><!-- end .project-item-overlay -->
+			        </div><!-- end .project-item-preview -->
+			        <div class="project-item-description">
+			            <h3>Incident Search on Twitter</h3>
+			            <p> Information Retrieval</p>
+			        </div><!-- end .project-item-description -->    
+			  	</div>	
+			  	<div class="col-md-4 project-item">
+			        <div class="project-item-preview">			
+			            <img src="images/projects/formal_specifications.png" alt="Formal Specifications">
+			            <div class="project-item-overlay">
+			                <div class="project-item-overlay-actions">
+			                    <a 	class="ajax-popup-link project-item-link" 
+			                    	href="#proj_formal_specs" data-toggle="modal" 
+			                    	data-target="#proj_formal_specs">
+			                    	<i class="fa fa-external-link"></i>
+			                    </a>
+			                </div><!-- end .project-item-overlay-actions -->
+			            </div><!-- end .project-item-overlay -->
+			        </div><!-- end .project-item-preview -->
+			        <div class="project-item-description">
+			            <h3>Formal Specifications of Algorithms</h3>
+			            <p>Distributed Systems</p>
+			        </div><!-- end .project-item-description -->    
+			  	</div>
+			  	<div class="col-md-4 project-item">
+			        <div class="project-item-preview">			
+			            <img src="images/projects/fpl_project.png" alt="Fundamentals of Programming Languages">
+			            <div class="project-item-overlay">
+			                <div class="project-item-overlay-actions">
+			                    <a 	class="ajax-popup-link project-item-link" 
+			                    	href="#proj_fpl" data-toggle="modal" 
+			                    	data-target="#proj_fpl">
+			                    	<i class="fa fa-external-link"></i>
+			                    </a>
+			                </div><!-- end .project-item-overlay-actions -->
+			            </div><!-- end .project-item-overlay -->
+			        </div><!-- end .project-item-preview -->
+			        <div class="project-item-description">
+			            <h3>Programming Paradigms</h3>
+			            <p>Fundamentals of Programming Languages</p>
+			        </div><!-- end .project-item-description -->    
+			  	</div>
+			  	<div class="col-md-4 project-item">
+			        <div class="project-item-preview">			
+			            <img src="images/projects/tweet_indexer.png" alt="Tweet Indexer">
+			            <div class="project-item-overlay">
+			                <div class="project-item-overlay-actions">
+			                    <a 	class="ajax-popup-link project-item-link" 
+			                    	href="#proj_tweet_idx" data-toggle="modal" 
+			                    	data-target="#proj_tweet_idx">
+			                    	<i class="fa fa-external-link"></i>
+			                    </a>
+			                </div><!-- end .project-item-overlay-actions -->
+			            </div><!-- end .project-item-overlay -->
+			        </div><!-- end .project-item-preview -->
+			        <div class="project-item-description">
+			            <h3>Tweet Indexer</h3>
+			            <p>Information Retrieval</p>
+			        </div><!-- end .project-item-description -->    
+			  	</div>
+			  	<div class="col-md-4 project-item">
+			        <div class="project-item-preview">			
+			            <img src="images/projects/visual_speech.png" alt="Visual Speech Synthesis">
+			            <div class="project-item-overlay">
+			                <div class="project-item-overlay-actions">
+			                    <a 	class="ajax-popup-link project-item-link" 
+			                    	href="#proj_vis_synthesis" data-toggle="modal" 
+			                    	data-target="#proj_vis_synthesis">
+			                    	<i class="fa fa-external-link"></i>
+			                    </a>
+			                </div><!-- end .project-item-overlay-actions -->
+			            </div><!-- end .project-item-overlay -->
+			        </div><!-- end .project-item-preview -->
+			        <div class="project-item-description">
+			            <h3>Visual Speech Synthesis</h3>
+			            <p>Speech to Text & Image Processing</p>
+			        </div><!-- end .project-item-description -->    
+			  	</div>
 			</div>
-			<!-- /.blurb -->
 		</section>
-		
-	    <section class="panel-default container" style="margin-top:5em; display:none">
-	      <!-- Main component for a primary marketing message or call to action -->
-	      <div class="col-md-12 jumbotron font_actor panel-body">
-	        <h3 class="col-md-6">
-	        	Education 
-	        </h3>
-	        <div class="col-md-6">
-<!-- 		        <p>This is a sample page of the website lalith.me. It includes responsive CSS and HTML.</p> -->
-	        </div>
-	      </div>
+	</section> <!-- .projects-section -->
+
+    <section class="skills-section"> 
+		<div class="sticky-wrapper" id="skills-nav" style="height:50px">
+		    <section class="gap skills">
+				<div class="container">
+					<p>skills <i class="fa fa-code sticky-wrapper-icon"></i>  </p>
+				</div>
+			</section>
+		</div>
+
+		<section class="container page-section" id="skills-details-container">
+        	<div class="col-md-4">
+                <div class="fixed">
+                    <div class="progress-bar-description">
+                    	Java
+                        <span></span>
+                    </div><!-- end .progress-bar-description -->
+                   
+                    <div class="progress">
+					  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+					    <span class="sr-only">95%</span>
+					  </div>
+					</div>
+                </div>
+                <div class="fixed">
+                    <div class="progress-bar-description">
+                    	J2EE Stack
+                        <span></span>
+                    </div><!-- end .progress-bar-description -->
+                
+                    <div class="progress">
+					  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+					    <span class="sr-only">85%</span>
+					  </div>
+					</div>
+                </div>
+                <div class="fixed">
+                    <div class="progress-bar-description">
+                    	jQuery
+                    </div><!-- end .progress-bar-description -->
+                   
+                   <div class="progress">
+					  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+					    <span class="sr-only">90%</span>
+					  </div>
+					</div>
+                </div>
+                <div class="fixed">
+                    <div class="progress-bar-description">
+                    	HTML 5 / CSS3
+                    </div><!-- end .progress-bar-description -->
+                   
+                    <div class="progress">
+					  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+					    <span class="sr-only">90%</span>
+					  </div>
+					</div>
+                </div>
+                <div class="fixed">
+                    <div class="progress-bar-description">
+                    	Python
+                    </div><!-- end .progress-bar-description -->
+                   
+                    <div class="progress">
+					  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+					    <span class="sr-only">75%</span>
+					  </div>
+					</div>
+                </div>
+                <div class="fixed">
+                    <div class="progress-bar-description">
+                    	Spring MVC
+                    </div><!-- end .progress-bar-description -->
+                   
+                    <div class="progress">
+					  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+					    <span class="sr-only">75%</span>
+					  </div>
+					</div>
+                </div>
+            </div><!-- first row of skills -->
+
+            <div class="col-md-4">
+                <div class="fixed">
+                    <div class="progress-bar-description">
+                    	Struts
+                    </div><!-- end .progress-bar-description -->
+                   
+                    <div class="progress">
+					  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+					    <span class="sr-only">75%</span>
+					  </div>
+					</div>
+                </div>
+                <div class="fixed">
+                    <div class="progress-bar-description">
+                    	Hadoop
+                    </div><!-- end .progress-bar-description -->
+                   
+                   <div class="progress">
+					  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+					    <span class="sr-only">70%</span>
+					  </div>
+					</div>
+                </div>
+                <div class="fixed">
+                    <div class="progress-bar-description">
+                    	Shell Scripting
+                    </div><!-- end .progress-bar-description -->
+                   
+                    <div class="progress">
+					  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+					    <span class="sr-only">70%</span>
+					  </div>
+					</div>
+                </div>
+                
+                <div class="fixed">
+                    <div class="progress-bar-description">
+                    	PL/SQL
+                    </div><!-- end .progress-bar-description -->
+
+                    <div class="progress">
+					  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+					    <span class="sr-only">60%</span>
+					  </div>
+					</div>
+                </div> 
+            </div> <!-- second row of skills -->
+
+            <div class="col-md-4 cv-item" style="padding-top:0px">
+                <div class="icon-box-1">
+                    <div class="icon-box-content">
+                        <h4>Ovation Award</h4>
+                        <p>
+                        	May 2014 / Verizon India<br>
+                        </p>
+                    </div><!-- end .icon-box-content -->
+                </div><!-- end .icon-box-1 -->
+                <div class="icon-box-1">
+                    <div class="icon-box-content">
+                        <h4>President</h4>
+                        <p>
+                        	2011 - 2012 / Westibule English Club
+                        </p>
+                    </div><!-- end .icon-box-content -->
+                </div><!-- end .icon-box-1 -->
+                <div class="icon-box-1">
+                    <div class="icon-box-content">
+                        <h4>State Level Debate (3rd Place) </h4>
+                        <p>
+                        	December 2011 / Sri Krishna College of Engineering & Technology<br>
+                        </p>
+                    </div><!-- end .icon-box-content -->
+                </div><!-- end .icon-box-1 -->
+                <div class="icon-box-1">
+                    <div class="icon-box-content">
+                        <h4>Finalist - Coding Competition</h4>
+                        <p>
+                        	October 2011 / PSG College of Technology<br>
+                        </p>
+                    </div><!-- end .icon-box-content -->
+                </div><!-- end .icon-box-1 -->
+                <div class="icon-box-1">
+                    <div class="icon-box-content">
+                        <h4>Paper Presentation (2nd Place)</h4>
+                        <p>
+                        	September 2010 / Kumaraguru College of Technology<br>
+                        </p>
+                    </div><!-- end .icon-box-content -->
+                </div><!-- end .icon-box-1 -->
+                <div class="icon-box-1">
+                    <div class="icon-box-content">
+                        <h4>Technical Quiz (1st Place)</h4>
+                        <p>
+                        	September 2010 / Kumaraguru College of Technology<br>
+                        </p>
+                    </div><!-- end .icon-box-content -->
+                </div><!-- end .icon-box-1 -->
+            </div><!-- end .span5 -->
+            <div class="col-md-9" style="padding-bottom: 1em;"> 
+				<h5></h5>
+				<span class="label label-skill">Solr</span>
+				<span class="label label-skill">Bootstrap</span>
+				<span class="label label-skill">Git</span>
+				<span class="label label-skill">Eclipse</span>
+				<span class="label label-skill">Vim</span>
+				<span class="label label-skill">TLA+</span>
+				<span class="label label-skill">Bootstrap</span>
+				<span class="label label-skill">JSON</span>
+				<span class="label label-skill">Photoshop</span>
+				<span class="label label-skill">LaTex</span>
+				<span class="label label-skill">MS Office</span>
+				<span class="label label-skill">Unix</span>
+				<span class="label label-skill">Windows</span>
+				<span class="label label-skill">Mac OS X</span>
+			</div>
+		    </section>
+	</section>
+
+	<section class="contact-section">
+		<div class="sticky-wrapper" id="contact-nav" style="height:50px">
+		    <section class="gap contact">
+				<div class="container">
+					<p>contact <i class="fa fa-envelope-o sticky-wrapper-icon"></i></p>
+				</div>
+			</section>
+		</div>
+
+		<section class="container page-block" id="contact-details-container">
+        	<div class="col-md-6">
+
+                <p> I'm a good conversationalist and always on the lookout for exciting opportunities and discussions. If you want to talk with me, hire me, catch soccer or grab a coffee don't hesistate to call or send an email. </p>
+                <div class="tiny-break"></div>
+                <ul class="contact-info">
+                	<li>
+                		<i class="fa fa-home"></i>
+                         19 Heath Street Lower Apartment
+                         Buffalo, New York 
+                         14214
+                    </li>
+                    <li>
+                        <i class="fa fa-phone"></i>(716) 431-9326
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope-square"></i>
+                        <a href="mailto:@yoursite.com">lalith.natarajan@yahoo.com</a>,
+                        <a href="mailto:@yoursite.com">lalithvi@buffalo.edu</a>
+                    </li>
+                    <li>
+		            	<i class="fa fa-github"></i>
+		            	<a href="https://github.com/bizentass">
+		            		GitHub
+		            	</a>
+			        </li>
+                </ul>
+
+			    <a 	href="public/Lalith_Natarajan_One_Page.pdf" 
+			    	class="col-md-4 btn btn-default download-btn text-uppercase">
+			    	Resume
+			    </a>	
+                
+                <nav class="navbar navbar-static-top col-md-12" style="padding:0px; margin:0px">
+			      <div class="font-awesome">
+			        <div id="navbar" class="navbar-collapse collapse">
+			          <ul class="nav navbar-nav">
+			            <li>
+			            	<a href="https://www.facebook.com/lalith.vikram" >
+			            		<span class="fa fa-facebook-f"></span> 
+			            	</a>
+			            </li>
+			            <li>
+			            	<a href="https://plus.google.com/u/0/101113049354604977297/" style="line-height: 1.80;">
+			            		<span class="fa fa-google-plus"></span>
+			            	</a>
+			            </li>
+			            <li>
+			            	<a href="https://www.linkedin.com/in/lalith-natarajan-84840534">
+			            		<span class="fa fa-linkedin"></span>
+			            	</a>
+			            </li>
+			            <li>
+			            	<a href="https://twitter.com/bizentass">
+			            		<span class="fa fa-twitter"></span>
+			            	</a>
+			            </li>
+			            <li style="height: 50px; width: 43px;">
+			            	<a href="https://www.quora.com/profile/Lalith-Natarajan" style="line-height: 1.3;" >
+			            		<img src="images/social_media/social-26-quora.png" style="height:14px; width:14px"/> 
+			            	</a>
+			            </li>
+			            <li>
+			            	<a href="https://www.instagram.com/bizentass/">
+			            		<span class="fa fa-instagram"></span>
+			            	</a>
+			            </li>
+			            <li>
+			            	<a href="http://stackexchange.com/users/5488763/bizentass">
+			            		<span class="fa fa-stack-exchange"></span>
+			            	</a>
+			            </li>
+							<!-- 		            <li> -->
+							<!-- 		            	<span style="z-index: 50; font-size: 0.9em;"> <img -->
+							<!-- 							src="http://theysaidso.com/branding/theysaidso.png" height="20" -->
+							<!-- 							width="20" alt="theysaidso.com" /> <a href="http://theysaidso.com" -->
+							<!-- 							title="Powered by quotes from theysaidso.com" -->
+							<!-- 							style="color: #9fcc25; margin-left: 4px; vertical-align: middle;"> -->
+							<!-- 								theysaidso.com </a> -->
+							<!-- 						</span> -->
+							<!-- 		            </li> -->
+			          </ul>
+			        </div>
+			      </div>
+			    </nav>
+
+            </div><!-- end .col-md-12 -->
+            <div class="col-md-6 cv-item" style="padding-top:0px; display:none">
+                <form novalidate="novalidate" class="fixed" id="contact-form" name="contact-form" method="post" action="_layout/php/send.php"> 
+                    <fieldset>
+                        <div id="formstatus"></div>  
+                        <input class="col-md-12" id="name" name="name" value="" placeholder="name here" type="text">
+                        <input class="col-md-12" id="email" name="email" value="" placeholder="email here" type="text">
+                        <input class="col-md-12" id="subject" name="subject" value="" placeholder="subject here" type="text">
+                        <textarea class="col-md-12" id="message" name="message" containers="7" cols="25" placeholder="message here">
+                        </textarea>
+                        <i class="fa fa-paper-plane-o"></i>
+                        <input class="col-md-4 btn btn-default" style="margin-top: 1em" id="submit" name="submit" value="Send!" type="submit">
+                    </fieldset>
+                </form>
+                
+            </div><!-- end .col-md-12 -->
 	    </section>
-	    
-	    <section class="panel-default container" style="margin-top:1em; display:none">
-	      <!-- Main component for a primary marketing message or call to action -->
-	      <div class="col-md-12 jumbotron font_actor panel-body">
-	        <div class="col-md-6">
-<!-- 		        <p>This is a sample page of the website lalith.me. It includes responsive CSS and HTML.</p> -->
-	        </div>
-	         <h3 class="col-md-6">
-	        	Experience 
-	        </h3>
-	      </div>
-	    </section>
-	    
-	    <section class="panel-default container" style="margin-top:1em; display:none">
-	      <!-- Main component for a primary marketing message or call to action -->
-	      <div class="col-md-12 jumbotron font_actor panel-body">
-	        <h3 class="col-md-6">
-	        	Skills 
-	        </h3>
-	        <div class="col-md-6">
-<!-- 		        <p>This is a sample page of the website lalith.me. It includes responsive CSS and HTML.</p> -->
-	        </div>
-	      </div>
-	    </section>
-	    
-	    <section class="panel-default container" style="margin-top:1em; display:none">
-	      <!-- Main component for a primary marketing message or call to action -->
-	      <div class="col-md-12 jumbotron font_actor panel-body">
-	        <div class="col-md-6">
-<!-- 		        <p>This is a sample page of the website lalith.me. It includes responsive CSS and HTML.</p> -->
-	        </div>
-	        <h3 class="col-md-6">
-	        	Projects 
-	        </h3>
-	      </div>
-	    </section>
-	    
-	    <section class="panel-default container" style="margin-top:1em; display:none">
-	      <!-- Main component for a primary marketing message or call to action -->
-	      <div class="col-md-12 jumbotron font_actor panel-body">
-	        <h3 class="col-md-6">
-	        	Contact 
-	        </h3>
-	        <div class="col-md-6">
-<!-- 		        <p>This is a sample page of the website lalith.me. It includes responsive CSS and HTML.</p> -->
-	        </div>
-	      </div>
-	    </section>
-	    
-		<!-- /.container -->
-		<footer>
-			<nav class="navbar navbar-static-top" style="padding:0px; margin:0px">
-		      <div class="font-awesome">
-		        <div id="navbar" class="navbar-collapse collapse">
-		          <ul class="nav navbar-nav">
-		            <li>
-		            	<a href="https://github.com/bizentass" ><span class="fa fa-facebook-f"></span> </a>
-		            </li>
-		            <li>
-		            	<a href="https://plus.google.com/u/0/101113049354604977297/" style="line-height: 1.80;"><span class="fa fa-google-plus"></span></a>
-		            </li>
-		            <li>
-		            	<a href="https://www.linkedin.com/in/lalith-natarajan-84840534"><span class="fa fa-linkedin"></span></a>
-		            </li>
-		            <li>
-		            	<a href="https://twitter.com/bizentass"><span class="fa fa-twitter"></span></a>
-		            </li>
-		            <!--  <li style="height:43px;width:50px">
-		            	<a href="http://stackexchange.com/users/5488763/bizentass" style="padding:0px"><img src="images/social_media/quora.png"/></a>
-		            </li> -->
-		            <li>
-		            	<a href="https://www.instagram.com/bizentass/"><span class="fa fa-instagram"></span></a>
-		            </li>
-		            <li>
-		            	<a href="https://github.com/bizentass"><span class="fa fa-github"></span></a>
-		            </li>
-<!-- 		            <li> -->
-<!-- 		            	<span style="z-index: 50; font-size: 0.9em;"> <img -->
-<!-- 							src="http://theysaidso.com/branding/theysaidso.png" height="20" -->
-<!-- 							width="20" alt="theysaidso.com" /> <a href="http://theysaidso.com" -->
-<!-- 							title="Powered by quotes from theysaidso.com" -->
-<!-- 							style="color: #9fcc25; margin-left: 4px; vertical-align: middle;"> -->
-<!-- 								theysaidso.com </a> -->
-<!-- 						</span> -->
-<!-- 		            </li> -->
-		          </ul>
-		        </div><!--/.nav-collapse -->
-		      </div>
-		    </nav>
-		</footer>
-	    <!-- /container -->
-	    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-	    <!--  <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
-	</body>
-</html>
+    </section>
+</div> <!-- end .content-scroller -->
+
+<footer>
+    <div class="container font_actor">
+        <div class="col-md-12">
+            <p class="text-center last"> Coded with 
+            	<a href="https://github.com/bizentass/bizentass.github.io">
+            		<span class="fa fa-heart"></span> </a> </p>                    
+        </div><!-- end col-md-12 -->
+    </div><!-- end .container -->
+</footer>
+
+<!-- Project Modals -->
+
+<div class="modal fade" id="proj_incident" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="popup-modal">
+		    <img class="img-responsive" src="images/projects/incident_search_inner.png" >
+		    <div class="description-box">
+			      <h4> Sweet Search - Incident Based Twitter Search</h4>
+			      <p> This is a web-based search system used to retrieve incident specific information from social media. If a user searches about say, Paris attacks, we would aggregate information from twitter, show the various influencers, topics discussed and places of interest. The user would then be able to form a rounded opinion about the incident. Content tagging, faceted search and cross-document analytics were performed to achieve this. We were one of the few teams selected to present in class.
+			      </p>
+			      <p>
+			      	<i class="fa fa-history"></i> 
+			      		December 2015
+			      </p>
+			      <p>
+			      	<i class="fa fa-github"></i> 
+			      	<a href="https://github.com/bizentass/Incident_Search">
+			      		Repository Link
+			      	</a>
+			      </p>
+
+               	<span class="categories">
+               		<i class="fa fa-tag"></i> Apache Solr, Stanford NER, Ruby on Rails, jQuery
+               	</span>
+		    </div>
+            <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+	    </div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="proj_formal_specs" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="popup-modal">
+		    <img class="img-responsive" src="images/projects/formal_specifications_inner.png" >
+		    <div class="description-box">
+			      <h4> Formal Specifications of Distributed Algorithms</h4>
+			      <p> TLA+ is a formal specification language used to model check properties of complex distributed algorithms. It was used to specify and check properties in Hybrid Vector Clocks and Dijkstra's 4 state and 3 state token ring algorithms.
+			      </p>
+			      <p>
+			      	<i class="fa fa-history"></i> 
+			      		Nov - Dec 2015
+			      </p>
+			      <p>
+			      	<i class="fa fa-github"></i> 
+			      	<a href="https://github.com/bizentass/formal_specifications_hvc">
+			      		HVC Repository Link
+			      	</a>
+			      	<a href="https://github.com/bizentass/formal_specifications_token_rings">
+			      		Token Ring Repository Link
+			      	</a>
+			      </p>
+
+               	<span class="categories">
+               		<i class="fa fa-tag"></i> TLA+, LaTex
+               	</span>
+		    </div>
+            <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+	    </div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="proj_fpl" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="popup-modal">
+		    <img class="img-responsive" src="images/projects/fpl_project_inner.png" >
+		    <div class="description-box">
+				<h4> Programming Paradigms </h4>
+				<p> Following are the broad categories. More programs are present in the repository</p>
+				<p> Object Oriented Programming </p>
+				<p>
+					<ul class="unordered-list">
+					    <li> Top Down Parser for a custom grammar in Java</li>
+					    <li> Multiple Inheritance using delegation in Java </li>
+					    <li> Design Patterns identification</li>
+					</ul>
+				</p>
+				<p> Functional Programming </p>
+				<p>
+					<ul class="unordered-list">
+					    <li> Binary Search Tree in SML</li>
+					    <li> Depth Order Search Traversal in SML </li>
+					    <li> Mapper and Reducer in SML</li>
+					    <li> Generating Church Numerals in SML</li>
+					</ul>
+				</p>
+				<p> Logic Programming </p>
+				<p>
+					<ul class="unordered-list">
+					    <li> Constraint Resolution in Prolog</li>
+					    <li> Reducible check in Prolog </li>
+					</ul>
+				</p>
+				<p>
+					<i class="fa fa-history"></i> 
+						Sep - Dec 2015
+				</p>
+				<p>
+					<i class="fa fa-github"></i> 
+					<a href="https://github.com/bizentass/CSE-505-Assignments">
+						Repository Link
+					</a>
+				</p>
+               	<span class="categories">
+               		<i class="fa fa-tag"></i> Java, Python, C, SML, Prolog, Lambda Calculus
+               	</span>
+		    </div>
+            <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+	    </div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="proj_tweet_idx" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="popup-modal">
+		    <img class="img-responsive" src="images/projects/tweet_indexer_inner.png" >
+		    <div class="description-box">
+			      <h4> Daily Tweet Indexer</h4>
+			      <p> Using the Twython API, tweets are extracted from lists every 10 minutes. These tweets are then cleaned, various fields removed and renamed. They are then fed into Solr for language wise indexing. Python cron tabs are used for automating the entire process.
+			      </p>
+			      <p>
+			      	<i class="fa fa-history"></i> 
+			      		September 2015
+			      </p>
+			      <p>
+			      	<i class="fa fa-github"></i> 
+			      	<a href="https://github.com/bizentass/Daily-Tweet-Indexer">
+			      		Repository Link
+			      	</a>
+			      </p>
+
+               	<span class="categories">
+               		<i class="fa fa-tag"></i> Python, Apache Solr
+               	</span>
+		    </div>
+            <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+	    </div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="proj_vis_synthesis" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="popup-modal">
+		    <img class="img-responsive" src="images/projects/visual_speech_inner.png" >
+		    <div class="description-box">
+			      <h4> Visual Speech Synthesis</h4>
+			      <p> This was my final academic project during my undergraduation. The windows based application is used to convert text to audiovisual stream with a custom face giving the impression of a photorealistic video. Two algorithms were compared by implementing them and improved by implementation of proper time delays. Additionally, reading of text from files, storage of video and human data was used. 
+			      </p>
+			      <p>
+			      	<i class="fa fa-history"></i> 
+			      		April 2012
+			      </p>
+			      <p>
+			      	<i class="fa fa-github"></i> 
+			      	<a href="https://github.com/bizentass/visual-speech-synthesis">
+			      		Repository Link
+			      	</a>
+			      </p>
+
+               	<span class="categories">
+               		<i class="fa fa-tag"></i> VB.Net, Microsoft SDK
+               	</span>
+		    </div>
+            <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+	    </div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

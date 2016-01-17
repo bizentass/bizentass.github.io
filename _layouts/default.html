@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+	    <link rel="shortcut icon" href="images/favicon.png">
+		<title>{{page.title}}</title>
+	
+		<link href='https://fonts.googleapis.com/css?family=Satisfy'
+			rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Oswald'
+			rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Actor'
+			rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css"
+			href="libraries/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="libraries/css/index.css">
+		<link rel="stylesheet" type="text/css" href="libraries/css/font-awesome.min.css">
+	</head>
+
+	<body>
+		
+	    {{ content }}
+
+	    <script src="libraries/js/jquery-1.11.3.min.js"></script>
+		<script src="libraries/js/bootstrap.min.js"></script> 
+		<script src="libraries/js/jquery.waypoints.min.js"></script> 
+	    <script>
+			$(document).ready(function() {
+				var cont_waypoints = $('.gap');
+				console.log(cont_waypoints);
+				console.log(cont_waypoints.length);
+				for (var i = 0; i < cont_waypoints.length; i++) {
+				  	new Waypoint({
+					  	element: cont_waypoints[i],	
+					  	handler: function(direction) {
+					  		if(direction == 'down') {
+					    		$(this.element).addClass('fixed-bar')
+					    	}
+					    	else if(direction == 'up') {
+					    		$(this.element).removeClass('fixed-bar')
+					    	}
+					  	},
+					  	continuous: false,
+					  	offset: 50
+					})
+				}
+			});
+		</script>
+	</body>
+</html>
