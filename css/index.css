@@ -73,7 +73,7 @@ footer a{
   color: #000000;
 }
 
-section.gap.education, section.gap.experience, section.gap.projects, section.gap.skills, section.gap.contact {
+div.gap.education, div.gap.experience, div.gap.projects, div.gap.skills, div.gap.contact {
   background: rgba(0, 0, 0, 0.9) none repeat scroll 0% 0%;
   height: 50px;
   padding: 14px;
@@ -84,7 +84,7 @@ section.gap.education, section.gap.experience, section.gap.projects, section.gap
   transition: height 0.3s ease 0s;
 }
 
-section.gap.education.fixed-bar, section.gap.experience.fixed-bar, section.gap.projects.fixed-bar, section.gap.skills.fixed-bar, section.gap.contact.fixed-bar {
+div.gap.education.fixed-bar, div.gap.experience.fixed-bar, div.gap.projects.fixed-bar, div.gap.skills.fixed-bar, div.gap.contact.fixed-bar {
   position: fixed;
   top: 50px;
   z-index: 900;
@@ -116,8 +116,8 @@ section.gap.education.fixed-bar, section.gap.experience.fixed-bar, section.gap.p
 }
 
 .info-container {
-    padding-top: 4em;
-    padding-bottom: 4em;
+  padding-top: 4em;
+  padding-bottom: 4em;
 }
 
 .about-me-container {
@@ -125,6 +125,10 @@ section.gap.education.fixed-bar, section.gap.experience.fixed-bar, section.gap.p
   padding-bottom: 2em;
   font-size: 14px;
   text-align: justify;
+}
+
+.image-container {
+  text-align: center;
 }
 
 .blockquote {
@@ -175,6 +179,10 @@ section.gap.education.fixed-bar, section.gap.experience.fixed-bar, section.gap.p
   border-left: 1px solid #e1e1e1;
   margin-top: -10px;
   font-family: 'PT Sans';
+}
+
+.company-desc{
+  font-style: italic;
 }
 
 .time-range {
@@ -451,6 +459,10 @@ position: relative;
 
 .project-item-link i {
   font-size: 20px;
+}
+
+.social-navbar,.social-navbar > li {
+  float: left;
 }
 
 .popup-modal .description-box {
