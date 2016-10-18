@@ -1,11 +1,11 @@
 a:focus, a:hover {
-    color: #878787;
-    text-decoration: none;
+   color: #000;
+   text-decoration: none;
 }
 
 a {
     padding:3px;
-    color: #000;
+    color: #3d72ad;
 }
 
 .font_satisfy {
@@ -157,7 +157,7 @@ div.gap.education.fixed-bar, div.gap.experience.fixed-bar, div.gap.projects.fixe
   padding: 15px 0;
   font-family: 'PT Sans', sans-serif;
   font-size: 12px;
-  text-align: right;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -165,20 +165,12 @@ div.gap.education.fixed-bar, div.gap.experience.fixed-bar, div.gap.projects.fixe
   font-size: 25px;
 }
 
-.time-range ::after {
-  position: absolute;
-  bottom: 90px;
-  right: 15px;
-  width: 100px;
-  border-bottom: 1px solid #e1e1e1;
-  content: "";
-}
-
 .cv-item {
   padding: 15px 0 5px 30px;
   border-left: 1px solid #e1e1e1;
   margin-top: -10px;
   font-family: 'PT Sans';
+  min-height:13em;
 }
 
 .company-desc{
@@ -189,12 +181,12 @@ div.gap.education.fixed-bar, div.gap.experience.fixed-bar, div.gap.projects.fixe
   font-family: 'Actor';
   font-size: 21px;
   font-weight: 600;
-  padding: 20px;
   padding-right: 0px;
-  padding-top: 45px;
+  padding-bottom: 5px;
   letter-spacing: -1px;
   text-transform: uppercase;
   height: 100%;
+  border-bottom: 1px solid #e1e1e1;
 }
 
 .time-range span{
@@ -523,4 +515,8 @@ position: relative;
     color: #fff;
     background: #000;
     border: 1px solid #000;
+}
+
+.social-navbar a {
+    color: #000;
 }
